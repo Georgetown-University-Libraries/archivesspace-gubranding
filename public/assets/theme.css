@@ -1,0 +1,51 @@
+header div.branding-container {
+    background-color: #022349;
+}
+
+footer {
+	background-color: #04254b;
+	color: white;
+}
+
+footer a {
+	color: #f9e08e!important;
+	text-shadow: none!important;
+}
+
+header div.branding-container, footer {
+	width: 100%!important;
+}
+
+header div.branding-container img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+header div.branding-container h1 {
+	color: white;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div.gulogo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline;
+}
+
+a {
+    color: #022349!important;
+}
+
+.label-info, .badge-info {
+  background-color: #72984b!important;
+}
+
+body {
+  background: #fff url(/assets/linen.png) repeat top left;
+}
