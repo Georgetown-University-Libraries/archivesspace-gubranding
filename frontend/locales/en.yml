@@ -9,3 +9,11 @@ en:
     message: For use by Georgetown University Library Staff.
     message_logged_in: You are logged into the Staff Interface.
     
+  enumerations:
+    event_event_type: 
+      processing_completed: Processing Completed
+      processing_in_progress: Processing In Progress
+      processing_new: Processing New      
+      
+    collection_management_processing_status:
+      none: None
