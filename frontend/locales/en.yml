@@ -17,3 +17,6 @@ en:
       
     collection_management_processing_status:
       none: None
+      
+    collection_management_processing_priority:
+      none: None
