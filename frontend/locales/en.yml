@@ -1,11 +1,11 @@
 en:
   brand:
-    title: Georgetown Finding Aids Staff Interface 
+    title: Georgetown University Archival Resources Site - Staff Interface 
     home: Staff Home
-    welcome_message: Welcome to the Georgetown University Finding Aids Staff Interface
+    welcome_message: Welcome to the Georgetown University Archival Resources Site - Staff Interface
 
   welcome:
-    heading: Welcome to the Georgetown University Finding Aids site
+    heading: Welcome to the Georgetown University Archival Resources Site
     message: For use by Georgetown University Library Staff.
     message_logged_in: You are logged into the Staff Interface.
     
