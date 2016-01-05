@@ -2,10 +2,10 @@ en:
   brand:
     title: Georgetown University Archival Resources - Staff Interface 
     home: Staff Home
-    welcome_message: Welcome to the Georgetown University Archival Resources - Staff Interface
+    welcome_message: Welcome to the Georgetown University Archival Resources Site - Staff Interface
 
   welcome:
-    heading: Welcome to the Georgetown University Archival Resources
+    heading: Welcome to the Georgetown University Archival Resources Site
     message: For use by Georgetown University Library Staff.
     message_logged_in: You are logged into the Staff Interface.
     

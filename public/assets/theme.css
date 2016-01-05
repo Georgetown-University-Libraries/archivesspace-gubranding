@@ -12,11 +12,11 @@ footer a {
 	text-shadow: none!important;
 }
 
-header div.branding-container, footer {
+header div.branding-container, footer, footer div.branding-container {
 	width: 100%!important;
 }
 
-header div.branding-container img {
+header div.branding-container img, footer div.branding-container img {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -66,9 +66,11 @@ div.gucarroll {
     .gureplogo {
         display: inline;
     }
+    /*
     header div.branding-container {
         text-align: center;
     }
+    */
 }
 
     
@@ -83,3 +85,23 @@ div.gucarroll {
         display: inline;
     }   
 }
+
+footer div.branding-container {
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+div.gu-ask-us {
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #022349;
+}
+
+div.gu-ask-us, div.gu-ask-us a {
+    color: white!important;
+}
+
+div.gu-ask-us a {
+    text-decoration: underline;
+}
+
