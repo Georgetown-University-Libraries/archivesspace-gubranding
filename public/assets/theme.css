@@ -105,3 +105,7 @@ div.gu-ask-us a {
     text-decoration: underline;
 }
 
+div.title-pane div.gu-ask-us {
+	margin-top: 10px;
+	margin-left: 20px;
+}
