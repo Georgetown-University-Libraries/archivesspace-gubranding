@@ -21,7 +21,7 @@ header div.branding-container img {
     padding-right: 20px;
 }
 
-div.gulogo {
+div.gulogo, .gudglogo {
 	padding-top: 4px;
 }
 
@@ -46,4 +46,40 @@ a {
 
 body {
   background: #fff url(/assets/linen.png) repeat top left;
+}
+
+div.gucarroll {
+	text-align: center;
+}
+
+@media (max-width: 810px) {
+    .gureplogo {
+        display: none;
+    }
+
+    header div.branding-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 811px) {
+    .gureplogo {
+        display: inline;
+    }
+    header div.branding-container {
+        text-align: center;
+    }
+}
+
+    
+@media (max-width: 1040px) {
+    .gudglogo {
+        display: none;
+    }   
+}
+
+@media (min-width: 1041px) {
+    .gudglogo {
+        display: inline;
+    }   
 }
