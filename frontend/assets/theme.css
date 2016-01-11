@@ -8,7 +8,7 @@ footer {
 }
 
 footer a {
-	color: #f9e08e!important;
+	color: #7bace4!important;
 	text-shadow: none!important;
 }
 
@@ -25,11 +25,11 @@ header div.branding-container {
 	padding-bottom: 10px;
 }
 
-header div.branding-container, footer {
+header div.branding-container, footer, footer div.branding-container {
 	width: 100%!important;
 }
 
-header div.branding-container img {
+header div.branding-container img, footer div.branding-container img {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -85,6 +85,10 @@ div.gucarroll {
     */
 }
 
+footer div.branding-container {
+	margin-bottom: 10px;
+    text-align: center;
+}
 
     
 footer img {
