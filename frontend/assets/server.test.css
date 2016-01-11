@@ -1,9 +1,8 @@
-div.branding-container h1::after {
-  content: " [TEST]"; 
-  position: relative; 
-  display: inline;
-}
-
-body {
-	border-top: 3px solid red;
+header div.branding-container::after {
+    content: "TEST Sever - TEST Sever - TEST Server";
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: relative;
 }
