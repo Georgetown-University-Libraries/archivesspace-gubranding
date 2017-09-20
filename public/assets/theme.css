@@ -4,6 +4,7 @@
 
 #header div.row {
     border-bottom: none;
+    height: inherit;
 }
 
 div.panel-footer {
@@ -16,9 +17,18 @@ div.panel-footer a {
 	text-shadow: none!important;
 }
 
-#header div.row img, div.panel-footer div.branding-container img {
+#header div.branding-container img, div.panel-footer div.branding-container img {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#header div.branding-container {
+  width: 100% !important;
+  text-align: center;
+}
+
+#header div.gulogo {
+    text-align: left;
 }
 
 div.gulogo, .gudglogo {
@@ -30,6 +40,7 @@ div.gulogo, .gudglogo {
 	text-align: center;
 	position: relative;
 	width: 100%;
+        margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	font-size: 24px;
@@ -69,19 +80,9 @@ div.gucarroll {
 }
 
 div.gufoottext {
-    display: inline;
     text-align: right;
-    widht: 400px;
 }
    
-div.gufootlogo {
-    display: inline;
-}
-
-div.gufoot {
-    text-align: right;
-}   
-    
 div.panel-footer div.branding-container {
 	margin-bottom: 10px;
     text-align: center;
