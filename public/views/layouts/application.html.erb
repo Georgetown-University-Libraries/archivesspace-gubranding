@@ -15,7 +15,8 @@
 
 	<%= stylesheet_link_tag    'application', media: 'all' %>
 	<%= javascript_include_tag 'application' %>
-
+        <%= javascript_include_tag "/assets/gucustom" %>
+        
         <%= render partial: 'shared/metadata' %>
 
 	<% ASUtils.find_local_directories('public/views/layout_head.html.erb').each do |template| %>
@@ -37,6 +38,7 @@
 
 	<section id="container-fluid" class="container">
 		<a name="maincontent" id="maincontent"></a>
+		<div class="gu-ask-us">Please contact the <a href="http://www.library.georgetown.edu/special-collections/using/requests/information">Booth Family Center for Special Collections</a> for assistance with accessing these materials.</div>
 		<%= flash_messages %>
 		<%= yield %>
 	</section>
