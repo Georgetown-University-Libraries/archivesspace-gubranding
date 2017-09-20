@@ -1,33 +1,22 @@
-<% set_title I18n.t("brand.home") %>
 
-<br/>
+<div class="row">
+  <div class="col-sm-12">
+    <h1><%= t('brand.welcome_head') %></h1>
+      <div> <%= t('brand.welcome_message').html_safe %> </div>
+  </div>
+</div>
 
-<div class="well">
-  <div class="row-fluid">
-    
-    <div class="span8">
-      
-      <h3><%= I18n.t("brand.welcome_message") %></h3>
-      <p><%= I18n.t("brand.welcome_search_label") %></p>
+    <%= render partial: 'shared/search', locals: {:search_url => "/search",
+     :title => t('archive._plural'),
+     :limit_options => [["#{t('actions.search')} #{t('search-limits.all')}",''], 
+            [t('search-limit', :limit => t('search-limits.resources')),'resource'],
+            [t('search-limit', :limit => t('search-limits.digital')),'digital_object']],
+     :field_options => [["#{t('search_results.filter.fullrecord')}",''],
+            ["#{t('search_results.filter.title')}",'title'],
+            ["#{t('search_results.filter.creators')}",'creators_text'],
+           ["#{t('search_results.filter.notes')}", 'notes'] ] } %>
 
-      <div class="tab-content">
-        <div id="simpleSearch" class="tab-pane active">
-          <%= render_aspace_partial :partial => "simple_search" %>
-        </div>
-        <div id="advancedSearch" class="tab-pane">
-          <%= render_aspace_partial :partial => "advanced_search" %>
-        </div>
-      </div>
-
-      <ul class="search-switcher">
-        <li class="active">
-          <a href="#simpleSearch" data-toggle="tab"><%= I18n.t("actions.hide_advanced_search") %></a>
-        </li>
-        <li>
-          <a href="#advancedSearch" data-toggle="tab"><%= I18n.t("actions.show_advanced_search") %></a>
-        </li>
-      </ul>
-
+<div>
       <hr/>
       <p>This site provides centralized access to written descriptions (known as finding aids) of hundreds of archival resources 
       housed at Georgetown University: in the Manuscripts Unit, the Rare Books Unit and the University Archives 
@@ -63,5 +52,4 @@
     <div class="span4 gucarroll">
       <%= image_tag "/assets/CarrollStatue.jpg", :alt => "John Carroll Statue" %>
     </div>
-  </div>
 </div>

@@ -1,22 +1,22 @@
-header div.branding-container {
+#header {
     background-color: #022349;
 }
 
-footer {
+#header div.row {
+    border-bottom: none;
+}
+
+div.panel-footer {
 	background-color: #04254b;
 	color: white;
 }
 
-footer a {
+div.panel-footer a {
 	color: #7bace4!important;
 	text-shadow: none!important;
 }
 
-header div.branding-container, footer, footer div.branding-container {
-	width: 100%!important;
-}
-
-header div.branding-container img, footer div.branding-container img {
+#header div.row img, div.panel-footer div.branding-container img {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -25,7 +25,7 @@ div.gulogo, .gudglogo {
 	padding-top: 4px;
 }
 
-header div.branding-container h1 {
+#header div.row div.h1 {
 	color: white;
 	text-align: center;
 	position: relative;
@@ -57,7 +57,7 @@ div.gucarroll {
         display: none;
     }
 
-    header div.branding-container {
+    #header div.row {
         text-align: left;
     }
 }
@@ -66,15 +66,23 @@ div.gucarroll {
     .gureplogo, .gudglogo {
         display: inline;
     }
-    /*
-    header div.branding-container {
-        text-align: center;
-    }
-    */
 }
 
+div.gufoottext {
+    display: inline;
+    text-align: right;
+    widht: 400px;
+}
+   
+div.gufootlogo {
+    display: inline;
+}
+
+div.gufoot {
+    text-align: right;
+}   
     
-footer div.branding-container {
+div.panel-footer div.branding-container {
 	margin-bottom: 10px;
     text-align: center;
 }

@@ -1,4 +1,4 @@
-header div.branding-container::before {
+#header div.row::before {
     content: "TEST Sever - TEST Sever - TEST Server";
     color: white;
     text-align: center;
