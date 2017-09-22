@@ -47,10 +47,6 @@ div.gulogo, .gudglogo {
 }
 
 
-a {
-    color: #022349!important;
-}
-
 .label-info, .badge-info {
   background-color: #72984b!important;
 }
@@ -82,6 +78,10 @@ div.gucarroll {
 div.gufoottext {
     text-align: right;
 }
+
+div.gufootlogo {
+  text-align: right;
+}
    
 div.panel-footer div.branding-container {
 	margin-bottom: 10px;
@@ -105,4 +105,8 @@ div.gu-ask-us a {
 div.title-pane div.gu-ask-us {
 	margin-top: 10px;
 	margin-left: 20px;
+}
+
+#container-fluid {
+  background-color: white;
 }
