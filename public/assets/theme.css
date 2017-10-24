@@ -123,3 +123,6 @@ div.title-pane div.gu-ask-us {
 #container-fluid {
   background-color: white;
 }
+
+.navbar {margin-bottom:0px;} 
+.panel-footer {margin-top: 0px;} 
