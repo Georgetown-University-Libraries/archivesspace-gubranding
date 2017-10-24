@@ -1,5 +1,19 @@
-#header {
-    background-color: #022349;
+@import url(https://fonts.googleapis.com/css?family=Cabin); 
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&subset=latin,latin-ext); 
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: Cabin;
+    color: #004990;
+}
+
+body {
+    font-family: Arimo;
+    letter-spacing: 1px;
+}
+
+
+#header, header {
+    background-color: #04254B;
 }
 
 #header div.row {
@@ -8,7 +22,7 @@
 }
 
 div.panel-footer {
-	background-color: #04254b;
+	background-color: #04254B;
 	color: white;
 }
 
