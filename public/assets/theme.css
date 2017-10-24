@@ -13,6 +13,8 @@ body {
 
 #header, header {
     background-color: #04254B;
+    background-image:url(/assets/dark_Tire_002147.png);
+    background-repeat:repeat;
 }
 
 #header div.row {
@@ -22,6 +24,8 @@ body {
 
 div.panel-footer {
 	background-color: #04254B;
+        background-image:url(/assets/dark_Tire_002147.png);
+        background-repeat:repeat;
 	color: white;
 }
 
