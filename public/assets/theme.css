@@ -131,7 +131,9 @@ div.title-pane div.gu-ask-us {
 .navbar {margin-bottom:0px;} 
 .panel-footer {margin-top: 0px;} 
 
-
+/*
+ * Override lightblue and medblue colors to a standard GU color with appropriate contrast
+ */
 .tabbing.nav-pills > li > a {
   background-color: #004990;
 }
@@ -142,4 +144,11 @@ div.title-pane div.gu-ask-us {
 
 #header a {
   color: white;
+}
+
+/*
+ * SD-1061: Many items have stray identifiers, suppress per Mat
+ */
+div.archival_object + div.identifier {
+    display: none;
 }
