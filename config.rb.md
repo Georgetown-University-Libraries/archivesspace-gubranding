@@ -25,7 +25,7 @@
     # Megaphone Button Link Override
     AppConfig[:pui_page_actions_request] = false
     AppConfig[:pui_page_custom_actions] << {
-       'record_type' => ['resource', 'archival_object'], # the jsonmodel type to show for
+       'record_type' => ['resource', 'archival_object', 'accession', 'digital_object'], # the jsonmodel type to show for
        'label' => 'Request', # the I18n path for the action button
        'icon' => 'fa-bullhorn', # the font-awesome icon CSS class
        'url_proc' => proc {|record| 'http://www.library.georgetown.edu/special-collections/using/requests/information?uri='+record.uri},
