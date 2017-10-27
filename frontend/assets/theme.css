@@ -1,9 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin); 
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&subset=latin,latin-ext); 
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: Cabin;
+}
+
+body {
+    font-family: Arimo;
+    letter-spacing: 1px;
+}
+
 header div.branding-container, div.global-container {
+    background-image:url(/assets/dark_Tire_002147.png);
     background-color: #022349;
 }
 
 footer {
-	background-color: #04254b;
+    background-color: #022349;
+    background-image:url(/assets/dark_Tire_002147.png);
+    background-repeat:repeat;
 	color: white;
 }
 
@@ -21,7 +36,7 @@ footer a {
 }
 
 header div.branding-container {
-	padding-top: 58px;
+    padding-top: 58px;
 	padding-bottom: 10px;
 }
 
@@ -43,6 +58,7 @@ header div.branding-container h1 {
 	text-align: center;
 	position: relative;
 	width: 100%;
+	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	font-size: 24px;
@@ -93,4 +109,8 @@ footer div.branding-container {
     
 footer img {
 	width: 70px;
+}
+
+#header div.row {
+    border-bottom: none;
 }
