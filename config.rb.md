@@ -79,3 +79,11 @@
       }
     }
     
+    # OAI Config
+    AppConfig[:oai_url] = "http://localhost:8082"
+    AppConfig[:oai_repository_name] = 'Georgetown Archival Resources OAI Provider'
+    AppConfig[:oai_proxy_url] = 'https://oai.findingaids-test.library.georgetown.edu'
+    AppConfig[:oai_record_prefix] = 'oai:archivesspace'
+    AppConfig[:oai_admin_email] = 'speccoll@georgetown.edu'
+    
+    
