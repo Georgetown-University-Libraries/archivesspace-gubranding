@@ -12,7 +12,7 @@
 
     # General Settings
     AppConfig[:backend_log_level] = "info"
-    AppConfig[:indexer_records_per_thread] = 50
+    AppConfig[:indexer_records_per_thread] = 200
     
     # Search Customizations
     AppConfig[:pui_search_results_page_size] = 20
