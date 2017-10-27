@@ -22,3 +22,51 @@
     AppConfig[:pui_hide][:accessions] = true
     AppConfig[:pui_hide][:classifications] = true
     
+    # Change Inherited Date Behavior
+    AppConfig[:record_inheritance] = {
+      :archival_object => {
+        :inherited_fields => [
+          {
+            :property => 'title',
+            :inherit_directly => true
+          },
+          {
+            :property => 'component_id',
+            :inherit_directly => false
+          },
+          {
+            :property => 'language',
+            :inherit_directly => true
+          },
+          {
+            :property => 'dates',
+            :inherit_directly => false
+          },
+          {
+            :property => 'extents',
+            :inherit_directly => false
+          },
+          {
+            :property => 'linked_agents',
+            :inherit_if => proc {|json| json.select {|j| j['role'] == 'creator'} },
+            :inherit_directly => false
+          },
+          {
+            :property => 'notes',
+            :inherit_if => proc {|json| json.select {|j| j['type'] == 'accessrestrict'} },
+            :inherit_directly => true
+          },
+          {
+            :property => 'notes',
+            :inherit_if => proc {|json| json.select {|j| j['type'] == 'scopecontent'} },
+            :inherit_directly => false
+          },
+          {
+            :property => 'notes',
+            :inherit_if => proc {|json| json.select {|j| j['type'] == 'langmaterial'} },
+            :inherit_directly => false
+          },
+        ]
+      }
+    }
+    
