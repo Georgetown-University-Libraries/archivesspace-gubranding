@@ -82,8 +82,37 @@
     # OAI Config
     AppConfig[:oai_url] = "http://localhost:8082"
     AppConfig[:oai_repository_name] = 'Georgetown Archival Resources OAI Provider'
-    AppConfig[:oai_proxy_url] = 'https://oai.findingaids-test.library.georgetown.edu'
+    AppConfig[:oai_proxy_url] = 'https://findingaids-test.library.georgetown.edu/oai'
     AppConfig[:oai_record_prefix] = 'oai:archivesspace'
     AppConfig[:oai_admin_email] = 'speccoll@georgetown.edu'
+    
+    AppConfig[:oai_sets] = {
+      'repository_set' => {
+        :repo_codes => ['GTA'],
+        :description => "GTA",
+      },
+      'repository_set' => {
+        :repo_codes => ['GTM'],
+        :description => "GTM",
+      },
+      'repository_set' => {
+        :repo_codes => ['GTRB'],
+        :description => "GTRB",
+      },
+      'repository_set' => {
+        :repo_codes => ['BRL'],
+        :description => "BRL",
+      },
+      'repository_set' => {
+        :repo_codes => ['Woodstock'],
+        :description => "Woodstock",
+      },
+      
+      'repository_set' => {
+        :repo_codes => ['GTA','GTM','GTRB','BRL','Woodstock'],
+        :description => "A set of one or more repositories",
+      }
+    }
+    
     
     
