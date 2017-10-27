@@ -28,7 +28,7 @@
        'record_type' => ['resource', 'archival_object', 'accession', 'digital_object'], # the jsonmodel type to show for
        'label' => 'Request', # the I18n path for the action button
        'icon' => 'fa-bullhorn', # the font-awesome icon CSS class
-       'url_proc' => proc {|record| 'http://www.library.georgetown.edu/special-collections/using/requests/information?uri='+record.uri},
+       'url_proc' => proc {|record| 'https://www.library.georgetown.edu/special-collections/using/requests/information?uri='+record.uri},
     }
     
     # Change Inherited Date Behavior
