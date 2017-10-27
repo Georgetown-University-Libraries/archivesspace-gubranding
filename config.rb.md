@@ -87,23 +87,23 @@
     AppConfig[:oai_admin_email] = 'speccoll@georgetown.edu'
     
     AppConfig[:oai_sets] = {
-      'repository_set' => {
+      'GTA' => {
         :repo_codes => ['GTA'],
         :description => "GTA",
       },
-      'repository_set' => {
+      'GTM' => {
         :repo_codes => ['GTM'],
         :description => "GTM",
       },
-      'repository_set' => {
+      'GTRB' => {
         :repo_codes => ['GTRB'],
         :description => "GTRB",
       },
-      'repository_set' => {
+      'BRL' => {
         :repo_codes => ['BRL'],
         :description => "BRL",
       },
-      'repository_set' => {
+      'Woodstock' => {
         :repo_codes => ['Woodstock'],
         :description => "Woodstock",
       },
