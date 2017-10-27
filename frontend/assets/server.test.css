@@ -5,5 +5,5 @@ header div.global-header::before {
     width: 100%;
     top: 30px;
     margin-left: 40px;
-    position: relative;
+    position: absolute;
 }

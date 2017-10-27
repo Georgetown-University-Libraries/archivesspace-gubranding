@@ -56,7 +56,7 @@ div.gulogo, .gudglogo {
 header div.branding-container h1 {
 	color: white;
 	text-align: center;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	margin-top: 0px;
 	padding-top: 0px;
