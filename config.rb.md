@@ -10,6 +10,9 @@
     
 ## General Oveerrides
 
+    # Allow an unauthenticated user to create an account
+    AppConfig[:allow_user_registration] = false
+    
     # General Settings
     AppConfig[:backend_log_level] = "info"
     AppConfig[:indexer_records_per_thread] = 250
