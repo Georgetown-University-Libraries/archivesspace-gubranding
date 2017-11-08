@@ -18,4 +18,8 @@ $(function() {
             $(this).hide();
         }
     });
+    
+    $("div.upper-record-details li.dates:has(span.inherit)").hide();
+    $("div.upper-record-details p.extent:has(span.inherit)").hide();
+    
 });
