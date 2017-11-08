@@ -11,4 +11,11 @@ $(function() {
     
     $("#sort option[value^='year_sort']")
         .attr("title","A disclaimer about the year sort will go here");
+        
+    $("div.archival_object + div.identifier").each(function(){
+        var text = $(this).find("span.component").text();
+        if (/^[0-9]+$/.test(text)) {
+            $(this).hide();
+        }
+    });
 });

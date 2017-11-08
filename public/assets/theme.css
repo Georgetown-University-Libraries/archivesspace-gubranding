@@ -146,9 +146,3 @@ div.title-pane div.gu-ask-us {
   color: white;
 }
 
-/*
- * SD-1061: Many items have stray identifiers, suppress per Mat
- */
-div.archival_object + div.identifier {
-    display: none;
-}
