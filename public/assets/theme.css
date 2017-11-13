@@ -4,11 +4,10 @@
 /*
 #header div.branding-container::before {
     content: "The Georgetown Archival Resouces System is being re-indexed.  Some content may not be available during this process." !important;
-    color: white;
-    text-align: center;
-    width: 100%;
-    top: 10px;
+    top: 0px;
     position: relative;
+    display: block;
+    background-color: #c63535;
 }
 */
 

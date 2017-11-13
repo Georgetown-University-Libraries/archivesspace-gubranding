@@ -10,7 +10,7 @@ $(function() {
     }
     
     $("#sort option[value^='year_sort']")
-        .attr("title","A disclaimer about the year sort will go here");
+        .attr("title","Note: Search results may not sort in strict chronological order.");
         
     $("div.archival_object + div.identifier").each(function(){
         var text = $(this).find("span.component").text();
