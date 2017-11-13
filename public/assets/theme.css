@@ -1,6 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin); 
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&subset=latin,latin-ext); 
 
+/*
+#header div.branding-container::before {
+    content: "The Georgetown Archival Resouces System is being re-indexed.  Some content may not be available during this process." !important;
+    color: white;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: relative;
+}
+*/
+
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
     font-family: Cabin;
 }
