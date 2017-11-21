@@ -1,3 +1,7 @@
+# Custom Overlay/Plugins for AS 1.x
+
+For our customizations of AS 2.x, see  https://github.com/Georgetown-University-Libraries/GUArchivesspace
+
 # ArchivesSpace Branding for Georgetown University Finding Aids
 
 ![image](https://cloud.githubusercontent.com/assets/1111057/18211430/5f9bf73a-70f2-11e6-8c1f-588d15393248.png)
